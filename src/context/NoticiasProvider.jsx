@@ -4,10 +4,17 @@ const NoticiasContext = createContext()
 
 const NoticiasProvider = ({children}) => {
 
+    const [categoria, setCategoria] = useState('general') //el primer valor de CATEGORIAS es general
+
+    const handleChangeCategoria = e => {
+        setCategoria(e.target.value)
+    }
+
     return (
         <NoticiasContext.Provider
             value={{
-                
+                categoria,
+                handleChangeCategoria
             }}
         >
             {children}
