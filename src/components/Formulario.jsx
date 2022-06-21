@@ -1,5 +1,4 @@
 import { FormControl, InputLabel, Select, MenuItem, Button, Box } from '@mui/material'
-import { useContext } from 'react'
 import useNoticias from '../hooks/useNoticias'
 
 const CATEGORIAS = [
