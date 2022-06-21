@@ -14,3 +14,6 @@ Done. Now run:
 
 Instalamos axios:
 npm i axios
+
+Usamos MUI como framework (https://mui.com/)
+En consola: npm install @mui/material @emotion/react @emotion/styled
